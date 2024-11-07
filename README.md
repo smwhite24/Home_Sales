@@ -18,24 +18,25 @@ The primary objectives of this project include:
 
 5. **Verification of Uncached Table**: Confirm that the cached table has been successfully uncached to ensure memory is being managed effectively.
 
-## Setup
+Setup
+Prerequisites
+Google Colab: This project was executed on Google Colab for ease of use with Spark.
+Apache Spark: Version 3.0 or higher, installed in the Colab environment.
+Python: For implementing and running SparkSQL queries in Colab.
 
-### Prerequisites
-- **Apache Spark**: Version 3.0 or higher
-- **Python**
 
 ### Dataset
 The project uses a dataset containing information about home sales, including fields such as sale price, date of sale, location, and property characteristics.
 
-1. **Clone the Repository**:
-   ```bash
-   git clone <repo_url>
-   cd home-sales-data-analysis
-   ```
+### Clone the Repository:
 
-2. **Import the Dataset**: Place the home sales dataset in the designated data directory.
+bash
+Copy code
+git clone <repo_url>
+cd home-sales-data-analysis
+Import the Dataset: Upload the home sales dataset to Google Colab.
 
-3. **Run the Spark Application**: Follow the instructions in `home_sales.ipynb` 
+Run the Spark Application: Follow the instructions in home_sales_colab.ipynb to execute the Spark job in Google Colab.
 
 ## Steps
 
