@@ -30,11 +30,9 @@ The project uses a dataset containing information about home sales, including fi
 
 ### Clone the Repository:
 
-bash
-Copy code
 git clone <repo_url>
 cd home-sales-data-analysis
-Import the Dataset: Upload the home sales dataset to Google Colab.
+
 
 Run the Spark Application: Follow the instructions in home_sales_colab.ipynb to execute the Spark job in Google Colab.
 
